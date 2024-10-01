@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6ad5ff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+
+}.container2 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do menu */
+header {
+    background-color: #333;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul.menu li {
+    position: relative;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul.menu li:hover {
+    background-color: #575757;
+}
+
+/* barra */
+nav ul.menu .conteudo_barra {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+}
+
+nav ul.menu .conteudo_barra li a {
+    padding: 10px 20px;
+}
+
+nav ul.menu .barra:hover .conteudo_barra {
+    display: block;
+}
+
+/* Estilos da imagem/carrossel */
+.carousel {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.carousel img.carousel-image {
+    max-width: 100%;
+    height: auto;
+    width: 1000px;
+    height: 400px;
+}
+
+/* parte de paragrafos e txt */
